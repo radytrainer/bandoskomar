@@ -1,4 +1,6 @@
 <?php
+define( 'WP_CACHE', true );
+
 /**
  * The base configuration for WordPress
  *
@@ -20,7 +22,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'bandoskomar' );
+define( 'DB_NAME', 'bondoskomar' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -32,7 +34,7 @@ define( 'DB_PASSWORD', '' );
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +50,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'Z/6SSDEJpbf12U9g+3[l] jM4{5FOhS9AaVF8G&tz{$u1pzb1#Rh`^=0)fL7$uLr' );
-define( 'SECURE_AUTH_KEY',  'X1~.,d.7@q+oqkywS(.(qKT3#WPsPQROQjNxHDBo~jGMu1v?A@#|{vsj$P~_xlA)' );
-define( 'LOGGED_IN_KEY',    'HJdo?c!76@PyX:u`$0hx:A7J*q)Hnu6b>>5aD!RJHV[>>X--x8WVbXtRf1iI)g_Z' );
-define( 'NONCE_KEY',        'R?RyzD?ob,{;&:N)Dj<jBs^MOPCy}MO:Phl[342NgW`1<$rbxg2bBaM$oR.s!a*k' );
-define( 'AUTH_SALT',        'H_26`6Ra<F?D~Rztxg,WWM-S<97hg/lzC_}AFaNu)G> QyhU#2#|h7mD8t<1n{UX' );
-define( 'SECURE_AUTH_SALT', 'yTX)gP20k`qaS)M)HDKz3*Bv=C9AY)?0o&PwC=W*Ah2|m;d^:H_1)*eWmoo6+#G5' );
-define( 'LOGGED_IN_SALT',   'hkFPM_jEksv|R4@S*Wl!0~.I5{ra%=ch1U{~:ieW7x6T7L}KIoM6^oQ#?9C?Ha5>' );
-define( 'NONCE_SALT',       '<{mDY2e(&9$;n]jH.S-fh4Aq>d~aZrvGp)6ln7~0Zb/=|0bJ sP @WRNyJ{oR^%P' );
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
