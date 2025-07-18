@@ -24,6 +24,7 @@ define( 'WP_CACHE', true );
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'bondoskomar' );
 
+
 /** Database username */
 define( 'DB_USER', 'root' );
 
