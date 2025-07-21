@@ -1,0 +1,19 @@
+/* NOTICE */
+.charity-aid-theme-info-notice {
+    padding: 10px 0;
+}
+h2.charity-aid-notice-h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.charity-aid-theme-notice-content {
+    display: flex !important;
+    align-items: center;
+    gap: 30px !important;
+}
+a#charity-aid-themeinfo-button, a#charity-aid-freedemocontent-button {
+    padding: 5px 10px !important;
+    font-size: 14px;
+    font-weight: 600;
+}
