@@ -1,0 +1,1 @@
+window.addEventListener("load",(()=>{const e=e=>{"enabled"===e?document.querySelector(".give_dtd_label_field").classList.remove("give-hidden"):document.querySelector(".give_dtd_label_field").classList.add("give-hidden")},d=document.querySelector(".dtd_enable_disable_field");d&&e(d.querySelector("input:checked").value),d&&d.addEventListener("change",(d=>{e(d.target.value)}))}));
