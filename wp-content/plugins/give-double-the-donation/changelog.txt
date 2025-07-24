@@ -1,0 +1,18 @@
+*** Give - Double the Donation changelog ***
+
+2024-12-12 - version 2.0.2
+- Fix: Resolved an issue where the company ID was not being sent to 360MatchPro
+
+2024-09-04 - version 2.0.1
+- Fix: Added the “Select a different company” text back to the company selector, which appears when a company has already been selected.
+
+2024-04-16 - version 2.0.0
+- New: Added compatibility with the GiveWP visual form builder
+
+2022-09-08 - version 1.0.1
+- Fix: resolved a periodic issue where the donation fields would appear twice in a form
+- 1.0.0: November 5, 2020 =
+- Initial plugin release. Yippee!
+- Settings panel
+- Per-form settings
+- Intuitive dropdown for donors to choose their company from

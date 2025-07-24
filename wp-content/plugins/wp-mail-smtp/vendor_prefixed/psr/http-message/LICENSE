@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:wp-content/plugins/wp-mail-smtp/vendor_prefixed/psr/http-message/LICENSE
 Copyright (c) 2014 PHP Framework Interoperability Group
+========
+Copyright (c) 2018-present Fabien Potencier and Trevor Rowbotham <trevor.rowbotham@pm.me>
+>>>>>>>> 5eb717702e85238ec310898c7508639145c7a8a9:wp-content/plugins/wp-mail-smtp/vendor_prefixed/symfony/polyfill-intl-idn/LICENSE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
 of this software and associated documentation files (the "Software"), to deal
