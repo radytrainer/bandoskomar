@@ -567,10 +567,7 @@ class Give_API {
 		}
 
 		$data         = array();
-		$this->versions = [
-			'v1' => MyPlugin\API\v1\Routes::class,
-			'v2' => MyPlugin\API\v2\Routes::class,
-		];
+		$this->routes = new $this->versions[ $this->get_queried_version() ];
 		$this->routes->validate_request();
 
 		switch ( $this->endpoint ) :
